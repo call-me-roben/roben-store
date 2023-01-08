@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="shop.css">
+    <link rel="stylesheet" href="cart.css">
+    <script src="script.js"></script>
+</head>
+<body> 
+    <header>
+        <h1>the lowest price ever for all games  </h1>
+    </header>
+    <div class="cont">
+    <div class="container">
+        <a  href="#steam" class="btns" onclick="change('steam','lol','pes','valo','fortnite','Freefire',)"  >steam</a><br>
+        <a href="#valo" class="btns" onclick="change('valo','steam','fortnite','Freefire','lol','pes',)">valorant</a><br>
+        <a href="#fortnite" class="btns" onclick="change('fortnite','steam','valo','Freefire','lol','pes',)">fortnite</a><br>
+        <a href="#freefire" class="btns" onclick="change('Freefire','steam','valo','fortnite','lol','pes',)">free fire</a><br>
+        <a href="#lol" class="btns" onclick="change('lol','pes','steam','valo','fortnite','Freefire',)">league of leagends</a><br>
+        <a href="#pes" class="btns" onclick="change('pes','lol','steam','valo','fortnite','Freefire',)">E football 2022</a><br>
+        <a href="#card" class="btns" onclick="change('card')">show card</a>
+</div>
+<div id="steam"  >
+<div class="items">
+        <h1>steam</h1>
+        <table class="tableau"border="4px">
+            <thead>
+                <td> gift cart USD </td>
+                <td> price with tunisian dinnar </td>
+                <td> gift cart turkich Lira </td>
+                <td> price with tunisian dinnar </td>
+            </thead>
+            <tbody>
+                <tr>
+                    <td onclick="add('5 dollar steam','20')">5 Dollar</td>
+                    <td>20 DT</td>
+                    <td onclick="add('20 TRY steam','6')">20 TRY </td>
+                    <td>6 DT</td>
+                </tr>
+                <tr>
+                    <td onclick="add('10 dollar steam','38')">10 Dollar</td>
+                    <td>38 DT</td>
+                    <td onclick="add('50 TRY steam','14')">50 TRY</td>
+                    <td>14 DT</td>
+                </tr>
+                <tr>
+                    <td onclick="add('20 dollar steam','75 ')">20 Dollar</td>
+                    <td>75 DT</td>
+                    <td onclick="add('100 TRY steam','28')">100 TRY</td>
+                    <td>28 DT</td>
+                </tr>
+                <tr>
+                    <td onclick="add('50 dollar steam','175')">50 Dollar</td>
+                    <td>175 DT</td>
+                    <td onclick="add('200 TRY steam','55')">200 TRY</td>
+                    <td>55 DT</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>*click on the item to add it on the card*</p>
+        <p>*also you can by account from <span>here</span> *</p>
+    </div>
+</div>
+<div id="valo" hidden>
+    <div class="items">
+        <h1>valorant</h1>
+        <table class="tableau"border="4px">
+            <thead>
+                <td>  EUROPE VP</td>
+                <td> price with tunisian dinnar </td>
+                <td>  TURKY VP</td>
+                <td> price with tunisian dinnar </td>
+            </thead>
+            <tbody>
+                <tr>
+                    <td onclick="add('475 vp valorant eu','19')">475 VP</td>
+                    <td>19 DT</td>
+                    <td onclick="add('175 VP valorant TURKY','4')">175 VP </td>
+                    <td>4 DT</td>
+                </tr>
+                <tr>
+                    <td onclick="add('1000 vp valorant eu','37')">1000 VP</td>
+                    <td>37 DT</td>
+                    <td onclick="add('740 VP valorant TURKY','15 ')">740 VP </td>
+                    <td>15 DT</td>
+                </tr>
+                <tr>
+                    <td onclick="add('2050 vp valorant eu','70')">2050 VP</td>
+                    <td>70 DT</td>
+                    <td onclick="add('1450 VP valorant TURKY','28')">1450 VP </td>
+                    <td>28 DT</td>
+                </tr>
+                <tr>
+                    <td onclick="add('5350 vp valorant eu','175')">5350 VP</td>
+                    <td>175 DT</td>
+                    <td onclick="add('2850 VP valorant TURKY','54')">2850 VP </td>
+                    <td>54 DT</td>
+                </tr>
+                <tr>
+                    <td onclick="add('11000 vp valorant eu','340 ')">11000 VP</td>
+                    <td>340 DT</td>
+                    <td onclick="add('5250 VP valorant TURKY','90')">5250 VP </td>
+                    <td>90 DT</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>*click on the item to add it on the card*</p>
+    </div>
+</div>
+<div id="fortnite" hidden >
+    <div class="items">
+        <h1>FORTNITE</h1>
+        <table class="tableau"border="4px">
+            <thead>
+                <td>  VBUCKS </td>
+                <td> price with tunisian dinnar </td>
+            </thead>
+            <tbody>
+                <tr>
+                    <td onclick="add('1000 VBUCKS FORTNITE TURKY','39')">1000 VBUCKS</td>
+                    <td>39 DT</td>
+                </tr>
+                <tr>
+                    <td onclick="add('2800 VBUCKS FORTNITE TURKY','87')">2800 VBUCKS</td>
+                    <td>87 DT</td>
+                </tr>
+                <tr>
+                    <td onclick="add('5000 VP FORTNITE TURKY','135')">5000 VBUCKS</td>
+                    <td>135 DT</td>
+
+                </tr>
+                <tr>
+                    <td onclick="add('13500 VBUCKS FORTNITE TURKY','315')">13500 VBUCKS</td>
+                    <td>315 DT</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>*click on the item to add it on the card*</p>
+    </div>
+</div>
+<div id="Freefire" hidden >
+    <div class="items">
+        <h1>FREE FIRE</h1>
+        <table class="tableau"border="4px">
+            <thead>
+                <td>  diamant </td>
+                <td> price with tunisian dinnar </td>
+            </thead>
+            <tbody>
+                <tr>
+                    <td onclick="add('100 💎 FF ','3.5')">100 💎</td>
+                    <td>3.7 DT</td>
+                </tr>
+                <tr>
+                    <td onclick="add('200 💎 FF ','7')">200 💎</td>
+                    <td>7 DT</td>
+                </tr>
+                <tr>
+                    <td onclick="add('500 💎 FF ','18')">550 💎</td>
+                    <td>18 DT</td>
+
+                </tr>
+                <tr>
+                    <td onclick="add('1000 💎 FF ','36')">1000 💎</td>
+                    <td>36 DT</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>*click on the item to add it on the card*</p>
+    </div>
+</div>
+<div id="lol" hidden >
+    <div class="items">
+        <h1>LEAGUE OF LEAGENDS</h1>
+        <table class="tableau"border="4px">
+            <thead>
+                <td>  WC coin </td>
+                <td> price with tunisian dinnar </td>
+            </thead>
+            <tbody>
+                <tr>
+                    <td onclick="add('475 WC lol ','18')">475 WC</td>
+                    <td>18 DT</td>
+                </tr>
+                <tr>
+                    <td onclick="add('1050 WC lol ','35')">1050 WC</td>
+                    <td>35 DT</td>
+                </tr>
+                <tr>
+                    <td onclick="add('2200 WC lol ','69')">2200 WC</td>
+                    <td>69 DT</td>
+                </tr>
+                <tr>
+                    <td onclick="add('3975 WC lol ','118')">3975 WC</td>
+                    <td>118 DT</td>
+                </tr>
+                <tr>
+                    <td onclick="add('5950 WC lol ','166')">5950 WC</td>
+                    <td>166 DT</td>
+                </tr>
+                <tr>
+                    <td onclick="add('12500 WC lol ','330')">12500 WC</td>
+                    <td>330 DT</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>*click on the item to add it on the card*</p>
+        <p>*recharge via account*</p>
+    </div>
+</div>
+<div id="pes" hidden >
+    <div class="items">
+        <h1>pes 2022</h1>
+        <table class="tableau"border="4px">
+            <thead>
+                <td>  pes coins </td>
+                <td> price with tunisian dinnar </td>
+            </thead>
+            <tbody>
+                <tr>
+                    <td onclick="add('130 coins pes ','5')">130 coins</td>
+                    <td>5 DT</td>
+                </tr>
+                <tr>
+                    <td onclick="add('550 coins pes ','21')">550 coins</td>
+                    <td>21 DT</td>
+                </tr>
+                <tr>
+                    <td onclick="add('1040 coins pes ','36')">1040 coins</td>
+                    <td>36 DT</td>
+                </tr>
+                <tr>
+                    <td onclick="add('2130 coins pes ','71')">2130 coins</td>
+                    <td>71 DT</td>
+                </tr>
+                <tr>
+                    <td onclick="add('3250 coins pes ','108')">3250 coins</td>
+                    <td>108 DT</td>
+                </tr>
+                <tr>
+                    <td onclick="add('5700 coins pes ','178')">5700 coins</td>
+                    <td>178 DT</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>*click on the item to add it on the card*</p>
+    </div>
+</div>
+<div id="card" hidden dir="ltr">
+    <h2>your shopping Cart</h2>
+    <table id="tab">
+      <thead>
+        <tr>
+        <th>Product</th>
+        <th>Price</th>
+      </tr>
+      </thead>
+      <tbody">
+      </tbody>
+    </table>
+    <hr>
+    <table id="tab2" >
+      <tr>
+        <td>Items</td>
+        <td>Total</td>
+      </tr>
+      <tr>
+        <td>x <span id="quantity">0</span></td>
+       
+        <td dir="ltr"><span id="total">0</span>dt</td>
+      </tr></table>
+
+      
+    <div class="cartbtn">  
+      <a id="btn" onclick="delet()">delete</a>
+<a id="btn" href="form.html">purchase</a>
+    </div>
+  </div>
+
+    </div>
+    <footer>
+        <p class="ftitle">Copyrights @ <span>ayoub ben ahmed</span></p>
+        <div class="social">
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/ayoub.ahmed.3557440/?hl=fr"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.youtube.com/channel/UC_HspOoXYJ6ZdLOut7B8agQ/featured"><i class="fab fa-youtube"></i></a>
+        </div>
+    </footer>
+</body>
+</html>

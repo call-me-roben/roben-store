@@ -1,0 +1,179 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    scroll-snap-type: mandatory;
+    text-align: center;
+    }
+body{
+    background-image: url(back.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: block;
+
+}
+
+ header a{
+    font-size: 0px;
+    color: #000051fb;
+    text-decoration: none;
+    font-size: 1.6em;
+    font-weight: 5000;
+    display: inline-block;
+    letter-spacing: 1px;
+    padding-left: 30px;
+
+}
+ header a:hover{
+    color: #c83333;
+
+}
+.head-cont{
+    background-color: #f8030373;
+}
+header{
+    background: linear-gradient(90deg, rgba(35, 32, 93, 0.65) 0%, rgba(18, 126, 176, 0.502) 50%, rgba(35, 32, 93, 0.434) 100%);
+    width: 100%;
+position: relative; 
+   display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 4%;
+    padding-bottom: 2%;
+}
+
+#logo{
+    width: 40px;
+    height: 50px;
+    text-align: start;
+    margin-top: 1%;
+    margin-left: 5%;
+}
+.welcome{
+    text-align: center;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+.welcome h2{
+    font-size: 40px;
+    color: rgb(24, 1, 1);
+}
+span a{
+    text-decoration: none;
+    color: rgba(0, 27, 135, 0.734);
+}
+span a:hover{
+    background-color: #c8333373;
+    color: red;
+    border-radius: 120px;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+table{
+    text-align: center;
+    margin-left: 6%;
+    margin-top: 200px;
+    width: 90%;
+    height: 100px;
+}
+td{
+    font-size: 1.7em;
+    width: 600px;
+}
+#valo{
+background-image: url(valo.jpg);
+background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x:50% ;
+}
+#valo:hover{
+    transform: scale(1.05);
+}
+#fortnite{
+    background-image: url(for.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x:50% ;
+}
+td:hover{
+    transform: scale(1.05);
+}
+#freef{
+    background-image: url(freef.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x:50% ;
+    
+}
+#ark{
+    background-image: url(ark.jpg);
+    background-position-x:50% ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+table h3{
+    font-size: 0.7em;
+    margin-top: 100%;
+    color: #4e0a0a;
+    border: 4px rgb(234, 32, 32) dashed;
+    background-color: rgba(187, 167, 17, 0.428);
+}
+
+#ark h3{
+    margin-top: 112%;
+
+}
+#freef h3{
+    margin-top: 112%;
+}
+table span{
+    color: rgb(251, 2, 2);
+}
+table a{
+    text-decoration: none;
+    font-style: oblique;
+    font-size: 1.72em;
+    color: #ee1b1b;
+    background-color: #3808b362;
+    border: 0.9px #3808b362 solid;
+    border-radius: 20px;
+}
+table a:hover{
+    border-radius: 40px;
+    background-color: red;
+    box-sizing: border-box;
+    color: aqua;
+}
+.a-container{
+margin-top: 100%;
+}
+hr{
+    border-top: 10px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+}
+footer {
+    color: #fff;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.social a{
+    font-size: 1.3em;
+    padding: 0 12px 0 0;
+}
+.ftitle {
+    font-size: 1.3em;
+    font-weight: 600;
+    
+}
+.ftitle span {
+    color: #3a6cf4;
+}
